@@ -7,9 +7,9 @@ This project is a web application built with React.js that allows users to retri
  - Follow the setup instructions in the `README.md` of the [Financial-dashboard-backend](https://github.com/celeste2325/financial-dashboard-backend) repository to configure the backend service.
  - Go to src > constants > apiEndPoints.js > Change API_BASE_URL to "localhost:4000".
 
-[You can view the live application by clicking here](https://finviewboard.netlify.app/)
-
-[You can watch a screen-recorded video by clicking here](https://www.youtube.com/watch?v=spAvPOXSUeo)
+**On live view server can take upto 1 minute to load data due to render free tier, please bear with that, thanks!**
+ - [You can view the live application by clicking here](https://finviewboard.netlify.app/)
+ - [You can watch a screen-recorded video by clicking here](https://www.youtube.com/watch?v=spAvPOXSUeo)
 
 <img width="1189" alt="Screenshot 2024-10-14 at 9 24 53 PM" src="https://github.com/user-attachments/assets/3fe0d40a-f786-4063-bb9e-0cfdffef6211">
 
