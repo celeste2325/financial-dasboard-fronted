@@ -2,7 +2,7 @@
 
 This project is a web application built with React.js that allows users to retrieve account balances and manage financial data effectively. The aim of this dashboard is to provide a simple display of account balances.
 
-**NOTE: FOR LOCAL SYSTEM RUN **
+**NOTE: FOR LOCAL SYSTEM RUN**
  - Frontend needs backend running in order to render dashboard and display any data.
  - Follow the setup instructions in the `README.md` of the [Financial-dashboard-backend](https://github.com/celeste2325/financial-dashboard-backend) repository to configure the backend service.
  - Go to src > constants > apiEndPoints.js > Change API_BASE_URL to "localhost:4000".
