@@ -2,9 +2,12 @@
 
 This project is a web application built with React.js that allows users to retrieve account balances and manage financial data effectively. The aim of this dashboard is to provide a simple display of account balances.
 
+**NOTE:** 
+ - Follow the setup instructions in the `README.md` of the [Financial-dashboard-backend](https://github.com/celeste2325/financial-dashboard-backend) repository to configure the backend service.
+
 [You can view the live application by clicking here](https://finviewboard.netlify.app/)
 
-[You can watch a screen-recorded video by clicking here](https://www.youtube.com/watch?v=SEjtwtiDAQg)
+[You can watch a screen-recorded video by clicking here](https://www.youtube.com/watch?v=spAvPOXSUeo)
 
 <img width="1189" alt="Screenshot 2024-10-14 at 9 24 53 PM" src="https://github.com/user-attachments/assets/3fe0d40a-f786-4063-bb9e-0cfdffef6211">
 
@@ -30,8 +33,6 @@ You can verify your versions by running the following commands in your terminal:
 node -v
 npm -v
 ```
-
-Follow the setup instructions in the `README.md` of the [Financial-dashboard-backend](https://github.com/celeste2325/financial-dashboard-backend) repository to configure the backend service.
 
 ## Installation
 
