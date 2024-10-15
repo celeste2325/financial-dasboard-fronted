@@ -64,6 +64,7 @@ export const DataProvider = ({children}) => {
         fetchData();
 
     }, []);
+    
     const [data, setData] = useState([]);
     const [errorMessage, setErrorMessage] = useState('');
 
