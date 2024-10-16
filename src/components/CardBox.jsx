@@ -6,6 +6,7 @@ import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';
 import { useState } from 'react';
 import { Typography } from '@mui/material';
 import ModalMessages from "./ModalMessages.jsx";
+import loader from '/assets/loader.gif'
 
 const CardBox = () => {
   const { data, errorMessage } = useData();
@@ -27,7 +28,8 @@ const CardBox = () => {
   return (
     <OuterWrapper>
       <Typography variant='h5' style={{ margin: '0' }}>My Accounts</Typography>
-      <Wrapper>
+      { data.length ? (
+        <Wrapper>
         <MoveButton onClick={moveBackward}>
           <ArrowBackIosIcon fontSize='large' />
         </MoveButton>
@@ -56,6 +58,15 @@ const CardBox = () => {
           <ArrowForwardIosIcon fontSize='large' />
         </MoveButton>
       </Wrapper>
+      ): (
+      <img src={loader} alt='loading...' style={{
+        display: 'block',
+        margin: 'auto',
+        width: '50px',
+        height: '50px',
+        marginTop: '20px'
+      }}/>
+      )}
     </OuterWrapper>
   );
 }
