@@ -46,27 +46,25 @@ const CardBox = () => {
               />
             ))
           }
-          {
-              errorMessage != '' &&
-              <ModalMessages
-                  title='No accounts to display.'
-                  description='No accounts to display.'
-              />
-          }
         </CardBoxWrapper>
         <MoveButton onClick={moveForward}>
           <ArrowForwardIosIcon fontSize='large' />
         </MoveButton>
       </Wrapper>
       ): (
-      <img src={loader} alt='loading...' style={{
-        display: 'block',
-        margin: 'auto',
-        width: '50px',
-        height: '50px',
-        marginTop: '20px'
-      }}/>
-      )}
+          errorMessage != '' ? 
+          <ModalMessages
+              title='No accounts to display.'
+              description='No accounts to display.'
+          /> :
+          <img src={loader} alt='loading...' style={{
+            display: 'block',
+            margin: 'auto',
+            width: '50px',
+            height: '50px',
+            marginTop: '20px'
+          }}/>
+        )}
     </OuterWrapper>
   );
 }
