@@ -21,6 +21,8 @@ const NavBar = () => {
       <Right>
         <MenuItem {...NameFieldProps}>UserName</MenuItem>
         <MenuItem {...LogFieldProps}>Logout</MenuItem>
+        <MenuItem {...LogFieldProps}><a href="https://github.com/celeste2325/financial-dashboard-fronted/tree/main">Github</a></MenuItem>
+        <MenuItem {...LogFieldProps}><a href="https://www.youtube.com/watch?v=spAvPOXSUeo">YT Video</a></MenuItem>
       </Right>
     </AppBar>
   )
